@@ -80,7 +80,7 @@ function Form({ setUser, setIsLoading, loading }) {
 				</div>
 				<button
 					type="submit"
-					className="self-start mt-5 border-none outline-none rounded-md py-1 px-3 text-teal-500 hover:ring-1 hover:ring-teal-600 capitalize font-black transition-all duration-200 ease-in">
+					className="self-start mt-5 outline-none rounded-md py-1 px-3 text-teal-500 hover:ring-1 hover:ring-teal-600 capitalize font-black transition-all border border-teal-600 duration-200 ease-in">
 					{loading ? <PuffLoader size={25} color="#36d7b7" /> : "find"}
 				</button>
 			</form>
